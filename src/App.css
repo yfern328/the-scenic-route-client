@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*.map-container {
+  margin: 0 auto;
+  height: 50vh;
+  width: 50vw;
+}*/
+
+.container-element {
+  /*background-color: black;*/
+  /*margin: 0 auto;*/
+  position: absolute;
+  margin-left: 27.5vw;
+  margin-top: 48vh;
+  top: 0;
+  /*text-align: center;*/
+  /*top: 0;*/
+}
+
+.map-element {
+  /*background-color: green;*/
+  /*margin: 0 auto;*/
+  top: 0;
+  position: relative;
+  /*z-index: -5;*/
+}
+
+/*.loading-element {
+  background-color: red;
+  margin: 0 auto;
+}*/
+
+.special-button {
+  background-color: blue;
+  text-align: center;
+  top: 5vh;
+  /*margin: 0 auto;*/
+  position: relative;
+  /*z-index: 2;*/
+}
+
+.address-form-selections {
+  position: relative;
+  padding-left: 12.5vw;
+  /*text-align: center;*/
+  top: 15.5vh;
+  width: 50vw;
+  /*background-color: purple;*/
+  margin: 0 auto;
+  z-index: 5;
+}
+
+.save-route-form {
+  /*text-align: center;*/
+  width: inherit;
+  padding-left: 20px;
+}
+
+.color-background {
+  /*background-color: orange;*/
+  background-image: url(http://www.planwallpaper.com/static/images/nature_backgrounds_elegant_backgrounds_image_hq_7004.jpg);
+  /*opacity: .5;*/
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+}
+
+.white-background {
+  position: absolute;
+  top: 12.5vh;
+  left: 20vw;
+  background-color: white;
+  opacity: 0.6;
+  width: 60vw;
+  height: 85vh;
+}
+
+.map-container {
+  /*position: relative;*/
+  /*z-index: 5;*/
+}
+
+.navbar {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  width: 100vw;
+}
+
+.navbar-icon {
+  position: relative;
+  margin-left: 35vw;
+}
+
+.route-card-container {
+  position: relative;
+  top: 10vw;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.header-logo {
+  position: relative;
+  margin-left: 25vw;
+}
+
+.route-card-name {
+  text-align: center;
+}
+
+.route-card-rating {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.route-card-button {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.modal-map-element {
+  position: relative;
+  margin: 0 auto;
+}
+
+.modal-route-description {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.route-page-background {
+  background: linear-gradient(to bottom, white, #adebad	);
+  bottom: 0;
+}
+
+h3.ui.header {
+  color: white;
+}
+
+.login-form {
+  position: absolute;
+  top: 30vh;
+  width: 60vw;
+  margin: 0 auto;
+  margin-left: 32vw;
+}
+
+.login-form-backdrop {
+  background: white;
+  opacity: 0.6;
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  margin-left: 26vw;
+  top: 26vh;
+  z-index: -1;
+}
+
+.video-background {
+  /*background: blue;*/
+}
+
+.ui.inverted.segment {
+  background: black !important
+}
